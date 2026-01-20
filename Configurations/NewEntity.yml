@@ -8,7 +8,7 @@ annotations:
         x: 137.5
         y: 67.5
 entityType: domain
-name: TestiamoDiNuovo3
+name: TestiamoDiNuovo4
 fields:
   - type: string
     description: New Field
