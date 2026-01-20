@@ -1,25 +1,25 @@
 id: 926a95fd-a8fc-46b9-b717-0214dc5ad828
 type: entity
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    a17da127-670e-4c18-bffc-4b645d90c307:
-      x: 137.5
-      y: 67.5
+  - namespace: c4modeler
+    name: position
+    value:
+      a17da127-670e-4c18-bffc-4b645d90c307:
+        x: 137.5
+        y: 67.5
 entityType: domain
-name: NewEntity
+name: Testiamo
 fields:
-- type: string
-  description: New Field
-  isPublic: true
-  enumerable: true
-  name: name
-- type: NewEntityEnum
-  description: New Field
-  isPublic: true
-  enumerable: true
-  name: type
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: name
+  - type: NewEntityEnum
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: type
 description: Entity
 associations: []
 useRepository: true
