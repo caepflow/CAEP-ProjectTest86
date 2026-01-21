@@ -6,8 +6,8 @@ annotations:
     name: position
     value:
       e5662d3e-ccb0-df8b-45e0-04f0d8c99676:
-        x: 228.63636363636363
-        y: 145.9090909090909
+        x: 140.5
+        y: 125.5
 name: NewData
 description: Description for NewData
 children:

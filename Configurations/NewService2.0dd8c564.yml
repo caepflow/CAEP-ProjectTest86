@@ -1,6 +1,9 @@
 id: e5662d3e-ccb0-df8b-45e0-04f0d8c99676
 type: service
-interactions: []
+interactions:
+  - targetId: 5c45c481-fe57-4309-8848-f01c4234032b
+    type: database
+    level: container
 annotations:
   - namespace: c4modeler
     name: position
@@ -8,6 +11,13 @@ annotations:
       7690d238-bcd3-4f14-ba32-7d8fb81b55c1:
         x: 487.4370281205437
         y: 441.10463854612306
+  - namespace: c4modeler
+    name: boundary
+    value:
+      x: 140.5
+      y: 125.5
+      width: 281
+      height: 251
 target:
   framework: net
   version: 9
