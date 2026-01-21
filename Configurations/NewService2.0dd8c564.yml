@@ -1,0 +1,20 @@
+id: e5662d3e-ccb0-df8b-45e0-04f0d8c99676
+type: service
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      7690d238-bcd3-4f14-ba32-7d8fb81b55c1:
+        x: 487.4370281205437
+        y: 441.10463854612306
+target:
+  framework: net
+  version: 9
+generationMode: default
+name: ShoppingCart
+description: Description for NewService
+namespace: Ca.CaepFlow.ShoppingCart
+children:
+  - id: 00d4fa04-3338-8f5e-008d-54c57027cebe
+    type: data

@@ -1,0 +1,20 @@
+id: 685c4be8-7798-768a-39ab-c4272aa41674
+type: entity
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      00d4fa04-3338-8f5e-008d-54c57027cebe:
+        x: 124.99999999999999
+        y: -79.54545454545453
+entityType: domain
+name: Utente1
+description: Description for Utente1
+useRepository: true
+fields:
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: qualcosa
