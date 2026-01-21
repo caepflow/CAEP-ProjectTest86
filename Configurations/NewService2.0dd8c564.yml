@@ -28,3 +28,5 @@ namespace: Ca.CaepFlow.ShoppingCart
 children:
   - id: 00d4fa04-3338-8f5e-008d-54c57027cebe
     type: data
+data:
+  orm: EntityFrameworkCore
