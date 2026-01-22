@@ -28,7 +28,7 @@ target:
   framework: net
   version: 9
 generationMode: default
-name: NewService11
+name: NewService12
 description: Backend Microservice .NET
 namespace: Ca.CaepFlow.Service
 data:
