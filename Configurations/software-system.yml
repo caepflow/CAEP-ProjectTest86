@@ -18,10 +18,10 @@ annotations:
   - namespace: c4modeler
     name: boundary
     value:
-      x: 259.25
-      y: 377.5
-      width: 518.5
-      height: 755
+      x: 308.85357290573586
+      y: 479.1519950367275
+      width: 668
+      height: 791
 children:
   - id: 3644930d-33a9-415c-8194-111744044dd3
     type: service

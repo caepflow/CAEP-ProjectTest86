@@ -1,0 +1,25 @@
+id: 4ddc81d6-11e0-d452-55f2-e22c5323d67a
+type: entity
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      00d4fa04-3338-8f5e-008d-54c57027cebe:
+        x: 452.5151515151515
+        y: -113.31515151515148
+entityType: domain
+name: Prodotto
+description: Description for NewEntity
+useRepository: true
+fields:
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: name
+  - type: decimal
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: price

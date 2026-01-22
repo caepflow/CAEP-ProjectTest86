@@ -13,3 +13,5 @@ description: Description for NewData
 children:
   - id: 685c4be8-7798-768a-39ab-c4272aa41674
     type: entity
+  - id: 4ddc81d6-11e0-d452-55f2-e22c5323d67a
+    type: entity
