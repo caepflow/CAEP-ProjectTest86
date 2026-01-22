@@ -20,6 +20,11 @@ fields:
     isPublic: true
     enumerable: true
     name: type
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: description
 description: Entity
 associations: []
 useRepository: true
