@@ -22,7 +22,7 @@ target:
   framework: net
   version: 9
 generationMode: default
-name: ShoppingCart7
+name: ShoppingCart8
 description: Description for NewService
 namespace: Ca.CaepFlow.ShoppingCart
 children:
