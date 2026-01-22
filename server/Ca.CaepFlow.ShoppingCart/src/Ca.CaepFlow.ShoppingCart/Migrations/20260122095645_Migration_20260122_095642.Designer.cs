@@ -4,6 +4,7 @@ using Ca.CaepFlow.ShoppingCart.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ca.CaepFlow.ShoppingCart.Migrations
 {
     [DbContext(typeof(ShoppingCartDataContext))]
-    partial class ShoppingCartDataContextModelSnapshot : ModelSnapshot
+    [Migration("20260122095645_Migration_20260122_095642")]
+    partial class Migration_20260122_095642
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
