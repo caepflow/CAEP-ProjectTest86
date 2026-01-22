@@ -4,6 +4,7 @@ using Ca.CaepFlow.Service.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ca.CaepFlow.Service.Migrations
 {
     [DbContext(typeof(NewServiceDataContext))]
-    partial class NewServiceDataContextModelSnapshot : ModelSnapshot
+    [Migration("20260122142733_Migration_20260122_142729")]
+    partial class Migration_20260122_142729
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
